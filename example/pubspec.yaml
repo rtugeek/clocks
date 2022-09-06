@@ -1,0 +1,92 @@
+name: clocks_example
+description: Demonstrates how to use the clocks plugin.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  clocks:
+    path: ../
+  get: ^4.6.5
+  window_manager: ^0.2.7
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - packages/clocks/assets/cloom/dark/dark_00.flr
+    - packages/clocks/assets/cloom/dark/dark_01.flr
+    - packages/clocks/assets/cloom/dark/dark_02.flr
+    - packages/clocks/assets/cloom/dark/dark_03.flr
+    - packages/clocks/assets/cloom/dark/dark_04.flr
+    - packages/clocks/assets/cloom/dark/dark_05.flr
+    - packages/clocks/assets/cloom/dark/dark_06.flr
+    - packages/clocks/assets/cloom/dark/dark_07.flr
+    - packages/clocks/assets/cloom/dark/dark_08.flr
+    - packages/clocks/assets/cloom/dark/dark_09.flr
+    - packages/clocks/assets/cloom/dark/dark_dots.flr
+    - packages/clocks/assets/cloom/light/light_00.flr
+    - packages/clocks/assets/cloom/light/light_01.flr
+    - packages/clocks/assets/cloom/light/light_02.flr
+    - packages/clocks/assets/cloom/light/light_03.flr
+    - packages/clocks/assets/cloom/light/light_04.flr
+    - packages/clocks/assets/cloom/light/light_05.flr
+    - packages/clocks/assets/cloom/light/light_06.flr
+    - packages/clocks/assets/cloom/light/light_07.flr
+    - packages/clocks/assets/cloom/light/light_08.flr
+    - packages/clocks/assets/cloom/light/light_09.flr
+    - packages/clocks/assets/cloom/light/light_dots.flr
+
+    - packages/clocks/assets/tetris/numbers/tetris_number0.json
+    - packages/clocks/assets/tetris/numbers/tetris_number1.json
+    - packages/clocks/assets/tetris/numbers/tetris_number2.json
+    - packages/clocks/assets/tetris/numbers/tetris_number3.json
+    - packages/clocks/assets/tetris/numbers/tetris_number4.json
+    - packages/clocks/assets/tetris/numbers/tetris_number5.json
+    - packages/clocks/assets/tetris/numbers/tetris_number6.json
+    - packages/clocks/assets/tetris/numbers/tetris_number7.json
+    - packages/clocks/assets/tetris/numbers/tetris_number8.json
+    - packages/clocks/assets/tetris/numbers/tetris_number9.json
+    - packages/clocks/assets/tetris/weather/cloudy.json
+    - packages/clocks/assets/tetris/weather/foggy.json
+    - packages/clocks/assets/tetris/weather/rainy.json
+    - packages/clocks/assets/tetris/weather/snowy.json
+    - packages/clocks/assets/tetris/weather/sun.json
+    - packages/clocks/assets/tetris/weather/thunderstorm.json
+    - packages/clocks/assets/tetris/weather/windy.json
+    - packages/clocks/assets/tetris/splash_screen.json
+    - packages/clocks/assets/tetris/config.json
+    - packages/clocks/assets/tetris/tetris_blocks.json
+
+    - packages/clocks/assets/neumorphic/rive/Light_Final.flr
+    - packages/clocks/assets/neumorphic/rive/Bird_Final_2.flr

@@ -1,0 +1,37 @@
+name: clocks
+description: A new Flutter project.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+  flutter: ">=2.5.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+  flare_flutter: ^3.0.2
+  get: ^4.6.5
+  flutter_svg: ^1.0.3
+  wakelock: ^0.6.1+2
+  intl: ^0.17.0
+  path_provider: ^2.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/
+    - assets/images/
+    - assets/fonts/
+  fonts:
+    - family: HumanBeansBird
+      fonts:
+        - asset: assets/fonts/Bird_font.ttf
+    - family: PressStart2P
+      fonts:
+        - asset: assets/fonts/PressStart2P_Regular.ttf
